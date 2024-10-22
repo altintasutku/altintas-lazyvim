@@ -1,6 +1,7 @@
 return {
   "nvim-neo-tree/neo-tree.nvim",
   opts = {
+    ensure_installed = { "go", "gomod", "gowork", "gosum" },
     filesystem = {
       filtered_items = {
         visible = true,
